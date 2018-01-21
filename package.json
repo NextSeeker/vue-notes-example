@@ -4,8 +4,7 @@
   "description": "Vue.js Demo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html,*.css,*.js'"
+    "start": "./node_modules/.bin/browser-sync start --server --files='*.css, *.html, *.js'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,8 @@
     "url": "https://github.com/NextSeeker/vue-notes-example/issues"
   },
   "homepage": "https://github.com/NextSeeker/vue-notes-example#readme",
-  "dependencies": {
-    "browser-sync": "^2.23.2"
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.3"
   }
 }
