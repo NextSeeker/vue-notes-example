@@ -168,4 +168,4 @@ const app = new Vue({
     template:`
     <notes></notes>
     `
-}) 
+})
