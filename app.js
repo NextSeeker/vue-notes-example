@@ -154,7 +154,7 @@ const Notes = {
             <span
                 class="ui small disabled header"
                 v-if="!this.entities.length">
-                没有任何内容，请添加笔记。</span>
+                没有任何内容，请添加笔记。test git branch</span>
         </div>
     </div>
     `
